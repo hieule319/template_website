@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link href="../css/fontsfamily.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!--Thư viện offline-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!--css-->
+    <link type="image/png" rel="shortcut icon" href="../favicon.png" />
+    <link type="text/css" rel="stylesheet" href="../css/nav.css" />
+    <link type="text/css" rel="stylesheet" href="../css/slideshow.css" />
+    <!--js-->
+    <script type="text/javascript" src="../js/giatien.js"></script>
+    <script type="text/javascript" src="../js/showmore.js"></script>
+    <script type="text/javascript" src="../js/thanhtoan.js"></script>
+    <title>Samsung Galaxy S10+ (Plus)</title>
+</head>
+<body>
+    <!--NAV -->
+    <nav class="navbar navbar-inverse navbar-expand-xl navbar-dark">
+        <div class="navbar-header d-flex col">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-cube"></i>HP <b>Smartphone</b></a>
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+                <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <form class="navbar-form form-inline">
+                <div class="input-group search-box">
+                    <input type="text" id="search" class="form-control" placeholder="Tìm kiếm">
+                    <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right md-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-mobile-phone"></i><span>Điện thoại</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="apple.html">Apple</a></li>
+                        <li><a href="samsung.html">Samsung</a></li>
+                        <li><a href="huawei.html">Huawei</a></li>
+                        <li><a href="#">Xiaomi</a></li>
+                        <li><a href="#">OPPO</a></li>
+                        <li><a href="#">Nokia</a></li>
+                        <li><a href="#">Asus</a></li>
+                        <li><a href="#">Honor</a></li>
+                        <li><a href="#">Vsmart</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="dienthoai.html" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i><span>Tablet</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="ipad">Xem tất cả</a></li>
+                        <li><a href="#">IPad Pro</a></li>
+                        <li><a href="#">IPad 9.7</a></li>
+                        <li><a href="#">IPad Air</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone-square"></i><span>Phụ kiện</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="phukien.html">Xem tất cả</a></li>
+                        <li><a href="#">Pin dự phòng</a></li>
+                        <li><a href="#">Dán màn hình</a></li>
+                        <li><a href="#">Camera</a></li>
+                        <li><a href="#">Chuột</a></li>
+                        <li><a href="#">Cáp sạc</a></li>
+                        <li><a href="#">Ốp lưng</a></li>
+                        <li><a href="#">Thẻ nhớ</a></li>
+                        <li><a href="#">Gaming gear</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-music"></i><span>Âm thanh</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="amthanh.html">Xem tất cả</a></li>
+                        <li><a href="#">Sony</a></li>
+                        <li><a href="#">JBL</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop"></i><span>Laptop</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="laptop.html">Xem tất cả</a></li>
+                        <li><a href="#">MacBook</a></li>
+                        <li><a href="#">Dell</a></li>
+                        <li><a href="#">HP</a></li>
+                        <li><a href="#">Asus</a></li>
+                        <li><a href="#">Xiaomi</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-handshake-o"></i><span>Sửa chữa</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-gift"></i><span>Khuyến mãi</span></a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action"><i class="fa fa-user-circle-o"></i>Tài khoản</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item"><i class="fa fa-user-o"></i> Profile</a></li>
+                        <li><a href="#" class="dropdown-item"><i class="fa fa-calendar-o"></i> Calendar</a></li>
+                        <li><a href="#" class="dropdown-item"><i class="fa fa-sliders"></i> Settings</a></li>
+                        <li class="divider dropdown-divider"></li>
+                        <li><a href="#" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ./NAV -->
+    <div class="container">
+        <div class="row">
+            <div id='nz-div-2'>
+                <h3 class="tde">
+                    <span class="btn btn-default btn-md"><a href="index.html">Home</a> > <a href="samsung.html">Samsung </a> > <a href="samsungs10.html">Samsung Galaxy s10 Plus</a></span>
+                </h3>
+                <div class="col-md-4" style="border: 1px solid #ccced1">
+                    <h2 style="text-align:center">Samsung Galaxy S10+ (Plus)</h2>
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="../images/Samsung/s10_plus_tr1_1.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="../images/Samsung/s10_plus_dn1.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="../images/Samsung/s10_plus_xl1_1.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="../images/Samsung/s10_plus_dn2.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="../images/Samsung/s10_plus_tr2.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="../images/Samsung/s10_plus_xl2.webp" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)" style="margin-top:60px; background-color:grey;">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="margin-top:60px; background-color:grey;">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="../images/Samsung/s10_plus_tr1_1.webp" style="width:100%" onclick="currentSlide(1)" alt="s10 Plus">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="../images/Samsung/s10_plus_dn1.webp" style="width:100%" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="../images/Samsung/s10_plus_xl1_1.webp" style="width:100%" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="../images/Samsung/s10_plus_dn2.webp" style="width:100%" onclick="currentSlide(4)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="../images/Samsung/s10_plus_tr2.webp" style="width:100%" onclick="currentSlide(5)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="../images/Samsung/s10_plus_xl2.webp" style="width:100%" onclick="currentSlide(6)">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                        <b>Mua hàng từ:</b>
+                        <select name="carlist">
+                            <option value="HCM">Hồ Chí Minh</option>
+                            <option value="HN">Hà Nội</option>
+                        </select>
+                    </form><br />
+                    <div class="text" style="color:red;"><span>22.990.000 ₫</span></div><br />
+                    <strong><i class="select_color_title">Chọn màu để xem giá và chi nhánh có hàng</i></strong><br />
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default">
+                            <input type="radio" name="options" autocomplete="off">
+                            <strong>Trắng</strong><span class="glyphicon glyphicon-ok"></span><br /><span style="color:red">22.990.000 ₫</span>
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="options" autocomplete="off">
+                            <strong>Xanh lục</strong><span class="glyphicon glyphicon-ok"></span><br /><span style="color:red">22.990.000 ₫</span>
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="options" autocomplete="off">
+                            <strong>Đen</strong><span class="glyphicon glyphicon-ok"></span><br /><span style="color:red">22.990.000 ₫</span>
+                        </label>
+                    </div><br><br>
+                    <center><a href="datmua_s10plus.html"><button type="button" class="btn btn-danger"><strong>MUA NGAY</strong><br />(Giao tận nơi hoặc lấy tại cửa hàng)</button></a></center><br />
+                    <button type="button" class="btn btn-primary" style="font-size:12px;margin-left:10px;"><strong>TRẢ GÓP 0%</strong><br />(Xét duyệt qua điện thoại)</button>
+                    <button type="button" class="btn btn-primary" style="font-size:12px"><strong>TRẢ GÓP 0% QUA THẺ</strong><br />(Visa,Master Card,JCB)</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row" style="border: 1px solid #ccced1">
+                    <ul>
+                        <b>HIỆN 3 CỬA HÀNG CÓ SẴN SẢN PHẨM</b>
+                        <li>55B Trần Quang Khải, P. Tân Định, Q. 1</li>
+                        <li>160 Nguyễn Khánh Toàn, P. Quan Hoa, Q .Cầu Giấy</li>
+                        <li>524 Bạch Mai, P. Trương Định, Q. Hai Bà Trưng</li>
+                    </ul>
+                </div><br />
+                <div class="row">
+                    <b>Tình trạng </b><br />
+                    Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất<br /><br />
+                    <b>Bảo hành </b><br />
+                    Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi nhà sản xuất.<a href="#" style="color:red;">(Chi tiết)</a>
+                </div>
+            </div>
+        </div><br />
+        <div class="row" style="border-top:1px solid grey;">
+            <div class="col-md-9">
+                <div class="span4 collapse-group">
+                    <h2><a href="xsmax.html" style="color:red;">Samsung Galaxy S10 Plus chính hãng, nhiều ưu đãi khi đặt trước</a></h2>
+                    <p>
+                        <b style="color:red;">Vậy là Samsung Galaxy S thế hệ thứ 10 đã được ra mắt,</b>-<b> và không làm người dùng thất vọng một chút nào. Trong bộ ba siêu phẩm dòng S năm nay.</b><br />
+                        <i>Samsung Galaxy S10 Plus là thiết bị đắt giá cũng như được trang bị những tính năng đình đám nhất từ Samsung. Đây hứa hẹn sẽ trở thành một trong những smartphone hoàn hảo nhất năm 2019. Ngoài ra, các siêu phẩm dự kiến trình làng của Samsung như Samsung Galaxy S10e, Samsung Galaxy Note 10 với những thiết kế cùng tính năng đột phá hứa hẹn sẽ bùng nổ giới công nghệ trong năm nay. </i><br /><br />
+                        <b>Thiết kế thiên hướng Note 9, kiểu màn hình Infinity-O độc đáo</b>
+                        Bài toán về hiển thị full màn hình đã được Samsung hoàn thành xuất sắc trên Samsung Galaxy S10 Plus. Với thiết kế Infinity-O, màn hình 6.4 inch trên Galaxy S10 Plus đã gần như chiếm trọn bộ mặt trước, với viền trên và cằm ở dưới rất mỏng. Tai thỏ, cũng như phần viền dày đã biến mất, thay vào đó là một ‘nốt ruồi’ chứa 2 camera selfie nằm ở góc phải màn hình.
+                        Phần nốt ruồi này được Samsung thiết kế rất tỉ mỉ, gọn gàng, không gây quá nhiều sự chú ý. Bên cạnh đó, nhà sản xuất Hàn Quốc cũng kỹ lưỡng cài đặt sẵn trên máy những hình nền mặc định ‘tối dần’ về phía góc trái, nhằm giúp thiết kế trông liền lạc hơn.<span class="collapse" id="viewdetails3">
+                            <img src="../images3/Samsung-galaxy-s10-plus-chinh-hang-1.webp" /><br /><br />
+                            Về thiết kế mặt lưng, trên Galaxy S10 Plus, thay vì đặt camera nằm dọc, Samsung đã xoay ngang cụm camera giống như trên Note 9. Đồng thời vân tay cũng đã được tích hợp thẳng vào trong màn hình. Nhờ đó mà thiết kế trên máy trông gọn gàng, vuông vứt hơn. Song song với đó, Galaxy S10 Plus cũng có độ mỏng rất ấn tượng, chỉ 7.8mm và có hai khối lượng dựa vào tuỳ phiên bản: 175g (bản thường), 198g (bản gốm).<br /><br />
+                            <img  src="../images3/Samsung-galaxy-s10-plus-chinh-hang-2.webp"/><br />
+                            Samsung cũng không quên mang lên S10 Plus khả năng kháng nước IP68 cũng như mặt kính bảo vệ Gorilla Glass 5 ở phía sau. Về màu sắc, Samsung Galaxy S10 Plus sở hữu rất nhiều phiên bản màu sắc như: Prism White, Prism Black, Prism Green, Prism Blue, Canary Yellow, Flamingo Pink, Ceramic Black, Ceramic White. Nhưng hiện tại bạn có thể đặt hàng trước các màu như Prism White, Prism Black và Prism Green.<br /><br />
+                            <b>Màn hình Dynamic AMOLED 2K, tích hợp cảm biến vân tay siêu âm </b><br /><br />
+                            Trên màn hình Galaxy S10 Plus, nếu như thiết kế Infinity-O là một điểm cách tân, thì chất lượng hiển thị lại là một lời khẳng định về chất lượng. Màn hình 6.4 inch trên Galaxy S10 Plus được trang bị tấm nền Dynamic AMOLED do chính Samsung phát triển. Với kỹ thuật Dynamic Tone Mapping, màn hình sử dụng tấm nền trên sẽ hỗ trợ tối ưu độ tương phản cho từng khung hình khác nhau. Song song với đó, Dynamic AMOLED cũng đạt chuẩn HDR10+. Đi kèm với độ phân giải rất cao - 1440 x 3040, màn hình trên Galaxy S10 Plus chắc chắn sẽ mang đến những trải nghiệm hiển thị xuất sắc chưa từng có.<br /><br />
+                            <img src="../images3/Samsung-galaxy-s10-plus-chinh-hang-3.webp" /><br /><br />
+                             Một trong những điểm độc đáo nhất của Galaxy S10 Plus chính là cảm biến vân tay siêu âm đầu tiên tích hợp dưới màn hình. Với công nghệ cảm biến này, vị trí đặt ngón tay sẽ không phải sáng lên khi thao tác như các cảm biến vân tay nhúng trong màn hình khác. Bên cạnh đó, tốc độ nhận diện vân tay trên máy là rất nhanh, bạn có thể đặt vân tay nhẹ nhàng ở nhiều vị trí ở phần màn hình dưới, không phải tác động quá nhiều lực.<br /><br />
+                            <img src="../images3/Samsung-galaxy-s10-plus-chinh-hang-4.webp"/>
+                            <b>Hiệu năng mạnh mẽ với Exynos 9820, dung lượng RAM 8GB tối thiểu</b><br /><br />
+                            Galaxy S10 Plus được Samsung nâng cấp lên vi xử lý Exynos 9820. Đây là một CPU được thiết kế trên tiến trình 8nm và chắc chắn sẽ mang đến một tốc độ xử lý nhanh hơn thế hệ cũ 9810 rất nhiều. Nhân NPU cũng xuất hiện nhằm hỗ trợ các thuật toán xử lý AI. Bên cạnh đó, mức tiêu thụ pin của bộ vi xử lý này cũng ít hơn đáng kể. Song song với vi xử lý mạnh mẽ, Samsung cũng trang bị cho Galaxy S10 Plus bộ nhớ RAM tối thiểu là 8GB (cho hai phiên bản 128/512GB bộ nhớ trong). Đặc biệt hơn, bản tối đa cấu hình Galaxy S10 Plus 1TB sẽ sở hữu dung lượng RAM lên đến 12GB.<br /><br />
+                            <img src="../images3/Samsung-galaxy-s10-plus-chinh-hang-5.webp" /><br /><br />
+                             Đi đôi với hiệu năng mạnh mẽ, Android Pie cài sẵn trên Galaxy S10 Plus cũng vận hành rất trơn tru, hiệu quả. Giao diện tuỳ biến One UI dựa trên nền Androdi 9.0 Pie đã được gọt giũa rất nhiều tính năng không cần thiết, cũng như thay đổi để phù hợp với các thao tác sử dụng một tay hơn. Đây thực sự là một bản nâng cấp đáng giá từ Samsung và là một hành trang không thể tốt hơn cho bộ ba Galaxy S năm nay.<br /><br />
+                            <img src="../images3/Samsung-galaxy-s10-plus-chinh-hang-6.webp"/>
+                            <b>Chụp ảnh xuất sắc với tổng cộng 5 cảm biến ảnh trước và sau, hỗ trợ AI</b><br /><br />
+                            Samsung Galaxy S10 Plus được trang bị đến 3 camera sau và 2 camera selfie. Về thông số phần cứng, bộ 3 camera sau bao gồm: 1 cảm biến chính 12 MP, công nghệ khẩu độ kép với khẩu độ thay đổi từ f/1.5-2.4, 1 cảm telephoto 12MP f/2.4 phục vụ cho chụp ảnh chân dung xoá phông, và cảm biến cuối cùng chính là camera góc siêu rộng 123 độ,đi kèm độ phân giải 16MP. Camera kép trước bao gồm hai cảm biến 10MP và 8MP.<br /><br />
+                            <img src="../images3/Samsung-galaxy-s10-plus-chinh-hang-7.webp" /><br /><br />
+                        </span>
+                        <a data-toggle="collapse" data-target="#viewdetails3" style="color:red">Xem thêm đánh giá...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <table class="table table-responsive table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Thông số kỹ thuật</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Trọng lượng</td>
+                            <th>208 g</th>
+                        </tr>
+                        <tr>
+                            <td>Loại SIM</td>
+                            <th>2 SIM (Nano-SIM)</th>
+                        </tr>
+                        <tr>
+                            <td>Bộ nhớ đệm / Ram</td>
+                            <th>128 GB, 8 GB RAM</th>
+                        </tr>
+                        <tr>
+                            <td>Bộ nhớ trong</td>
+                            <th>128 GB</th>
+                        </tr>
+                        <tr>
+                            <td>Loại màn hình</td>
+                            <th>Super AMOLED</th>
+                        </tr>
+                        <tr>
+                            <td>Kích thước màn hình</td>
+                            <th>6.4 inches</th>
+                        </tr>
+                        <tr>
+                            <td>Độ phân giải màn hình</td>
+                            <th>1440 x 2960 pixels</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-responsive table-hover">
+                    <tbody>
+                        <tr class="clickable" data-toggle="collapse" data-target="#group-of-rows-1" aria-expanded="false" aria-controls="group-of-rows-1">
+                            <td><i class="fa fa-plus" aria-hidden="true"></i></td>
+                            <td>Xem thêm</td>
+                        </tr>
+                    </tbody>
+                    <tbody id="group-of-rows-1" class="collapse">
+                        <tr>
+                            <td>Hệ điều hành</td>
+                            <th>Android</th>
+                        </tr>
+                        <tr>
+                            <td>Phiên bản hệ điều hành</td>
+                            <th>9.0 (Pie)</th>
+                        </tr>
+                        <tr>
+                            <td>Chipset</td>
+                            <th>Exynos 9820 8 nhân 64 bit</th>
+                        </tr>
+                        <tr>
+                            <td>GPU</td>
+                            <th>Mali-G76 MP18</th>
+                        </tr>
+                        <tr>
+                            <td>Khe cắm thẻ nhớ</td>
+                            <th>MicroSD, hỗ trợ tối đa 400 GB</th>
+                        </tr>
+                        <tr>
+                            <td>Quay video</td>
+                            <th>Quay phim siêu chậm 960 fps, Quay phim FullHD 1080p@240fps, Quay phim 4K 2160p@60fps</th>
+                        </tr>
+                        <tr>
+                            <td>WLAN</td>
+                            <th>Wi-Fi 802.11 a/b/g/n/ac, Dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot</th>
+                        </tr>
+                        <tr>
+                            <td>Bluetooth</td>
+                            <th>	v5.0, apt-X, A2DP, LE, EDR</th>
+                        </tr>
+                        <tr>
+                            <td>GPS</td>
+                            <th>BDS, A-GPS, GLONASS</th>
+                        </tr>
+                        <tr>
+                            <td>Cảm biến</td>
+                            <th>Vân tay dưới màn hình</th>
+                        </tr>
+                        <tr>
+                            <td>Pin</td>
+                            <th>Pin chuẩn Li-Ion 4100 mAh</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row" style="border-top: 1px solid #ccced1">
+            <br />
+            <h2>Các video đánh giá giá phẩm</h2>
+            <div class="col-md-4">
+                <video width="320" height="240" controls>
+                    <source src="../video/Galaxy S10 Official TVC- The Next Generation Galaxy.mp4" type="video/mp4">
+                </video>
+                <h4>Giới thiệu Samsung Galaxy s10 Plus</h4>
+            </div>
+        </div><br />
+        <div class="row" style="border-top: 1px solid #ccced1">
+            <br />
+            <h2>Các sản phẩm tương tự</h2>
+            <div class="col-md-2">
+                <a href="#"><img class="zoom" src="../images/Samsung/iqhmp.webp" style="width:50%;"></a><div>Điện thoại Samsung Galaxy A9 (2018)</div><div class="text" style="color:red;"><del>12.490.000 ₫</del></div><div class="text" style="color:red;">8.490.000 ₫</div><br />
+            </div>
+            <div class="col-md-2">
+                <a href="#"><img class="zoom" src="../images/Samsung/s9plus-purple_1.webp" style="width:50%;"></a><div>Điện thoại Samsung Galaxy S9+ (Plus) 64GB</div><div class="text" style="color:red;"><del>19.990.000 ₫</del></div><div class="text" style="color:red;">13.090.000 ₫</div><br />
+            </div>
+            <div class="col-md-2">
+                <a href="#"><img class="zoom" src="../images/Samsung/galaxy-s10e_design_colors_prism-white11_zoom.webp" style="width:52%;"></a><div>Điện thoại Samsung Galaxy S10e</div><div class="text" style="color:red;"><del>15.990.000 ₫</del></div><div class="text" style="color:red;">15.290.000 ₫</div><br />
+            </div>
+        </div><br />
+        <div class="row" style="border-top: 1px solid #ccced1">
+            <h2>Hỏi và Đáp</h2>
+            <div class="col-md-12">
+                <form>
+                    <textarea rows="5" cols="50" placeholder="Xin để lại câu hỏi, HPsmartphone sẽ trả lời sớm nhất có thể từ 8h - 22h mỗi ngày"></textarea>
+                </form>
+            </div>
+        </div>
+    </div><br />
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Thông tin liên lạc</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gọi mua hàng: 1800.2097 (Miễn phí)</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Khiếu nại, góp ý: 1800.2063 </a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Thời gian phục vụ: 8h - 22h</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Email: cskh@hpsmartphone.com.vn</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tổng đài miễn phí: 1800.2064</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Thông tin hỗ trợ</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Giới thiệu</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Mua hàng từ xa</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Kiểm tra thông tin đơn hàng</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tuyển dụng</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Mua hàng, thanh toán online</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Kiểm tra bảo hành,sửa chữa</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách bảo mật</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chính sách sử dụng</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hướng dẫn huỷ giao dịch, đổi trả</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Trung tâm bảo hành chính hãng</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Hệ thống cửa hàng</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Hồ Chí Minh</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Hà Nội</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p>Họ và Tên: Lê Văn Hiếu  mssv:17086141<br />Trần Nguyễn Quang Phúc  mssv:17072771</p>
+                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Sunlimetech</a></p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+    <!-- Modal -->
+    <div id="mymodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1>Thông Tin Thanh Toán</h1>
+                </div>
+                <div class="modal-body">
+                    <form id="frm">
+                        <div class="form-group">
+                            <label>Họ tên</label>
+                            <input type="text" class="form-control" id="txtten" onblur="ktraTen()" /><span id="loiT"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" class="form-control" id="txtemail" onblur="ktraEmail()" />
+                            <span id="loiemail"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Số điện thoại</label>
+                            <input type="text" class="form-control" id="txtsdt" onblur="ktraSDT()" />
+                            <span id="loisdt"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Địa chỉ</label>
+                            <input type="text" class="form-control" id="txtdc" onblur="ktradc()" /><span id="loidc"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Số lượng</label>
+                            <input type="text" class="form-control" id="txtsl" onblur="ktrasoluong()" /><span id="loisl"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Thành tiền</label>
+                            <input type="text" class="form-control" id="txtsl" onblur="ktrasoluong()" /><span id="loisl"></span>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-success btn-block" onclick="btnTT()">Thanh toán</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--slideshow-->
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) { myIndex = 1 }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 3000); // Thay đổi mỗi 2 giây
+}
+    </script>
+</body>
+</html>
